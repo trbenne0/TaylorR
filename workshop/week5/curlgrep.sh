@@ -13,7 +13,7 @@ wpccount=0 # wp-content
 wpicount=0 # wp-include
 
 
-read -s -p 'Please provide a full URL to test: ' URL
+read -s -p 'Please provide a full URL to test: ' url
 
 curl $url > wpage.txt
 
